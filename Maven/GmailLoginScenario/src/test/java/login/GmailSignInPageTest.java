@@ -14,10 +14,10 @@ public class GmailSignInPageTest extends Base{
         GmailSignInPage signInPage = new GmailSignInPage(driver);
         signInPage.clickOnSignIn();
         sleepFor(5);
-        signInPage.enterUsername("shakirkagzi");
+        signInPage.enterUsername("PurpleBricks2017");
         signInPage.clickOnNextButton();
         sleepFor(5);
-        signInPage.enterPassword("shakir84");
+        signInPage.enterPassword("Purple@2017");
         signInPage.clickOnsigninforlogon();
         sleepFor(10);
         Assert.assertTrue(GmailSignInPage.validateGoogleIconDisplay());
